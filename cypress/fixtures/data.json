@@ -1,0 +1,38 @@
+{
+  "limites":{
+    "fechaMax":"2022,11,31"
+  },
+  "pantallaPrincipal":{
+    "columnasEsperadas":["fecha entrada", "fecha salida", "tipo de habitación", "nº huéspedes", "datos de contacto", "precio total de la reserva", "localizador", "nº de habitación"],
+    "botonNuevaReserva":"Nueva reserva"
+  },
+  "pantallaNuevaReserva":{
+    "urlNuevaReserva":"room_types/",
+    "botonBuscarDisponibilidad":"Buscar disponibilidad",
+    "huespedes":{
+      "invalido":"-1"
+    },
+    "fechaEntrada":"Entrada",
+    "fechaSalida":"Salida",
+    "detallesHabitación":[
+      { "tipo": "Tipo habitación", "capacidad": "Capacidad", "Disponibles": "Cantidad disponible","precio":"Precio reserva" },
+      { "tipo": "Individual", "capacidad": 1, "Disponibles": 10,"precio":20 },
+		  { "tipo": "Doble", "capacidad": 2, "Disponibles": 5,"precio":30 },
+		  { "tipo": "Triple", "capacidad": 3, "Disponibles": 4,"precio": 40 },
+		  { "tipo": "Cuádruple", "capacidad": 4, "Disponibles": 6,"precio":50 }
+    ]
+  },
+  "pantallaFormularioReserva":{
+    "urlFormulario":"room/",
+    "detalleClienteForm":["Nombre","Correo electrónico", "Número de teléfono"],
+    "datosCliente":{
+      "nombre":"Juan Carlos",
+      "correoElectronico":"MiReserva@gmail.com",
+      "numeroTelefono": "631-75-84-32"
+    }
+
+
+
+  }
+
+}
